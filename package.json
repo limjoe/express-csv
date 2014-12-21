@@ -1,5 +1,5 @@
 {
-	"name": "express-promise",
+	"name": "express-csv",
 	"version": "0.1.0",
 	"scripts": {
 		"test": "mocha -R spec"
@@ -12,7 +12,7 @@
 		"url": "git://github.com/limjoe/express-csv.git"
 	},
 	"engines": [
-		"node >=0.6.0"
+		"node >=0.10.0"
 	],
 	"keywords": [
 		"csv",
@@ -20,7 +20,15 @@
 		"middleware"
 	],
 	"devDependencies": {
-		"mocha": "~1.12.1",
-		"should": "~1.2.2"
-	}
+		"express": "~4.10.6",
+		"mocha": "~2.0.1",
+		"should": "~4.4.1",
+		"supertest": "~0.15.0"
+	},
+	"jshintConfig": {
+		"undef": true,
+	    "unused": true,
+	    "node": true,
+	    "strict": false
+  }
 }
