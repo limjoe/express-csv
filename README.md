@@ -1,5 +1,6 @@
 # express-csv
 An [express.js](http://expressjs.com) middleware for easy providing response CSV
+[![Build Status](https://travis-ci.org/limjoe/express-csv.svg?branch=master)](https://travis-ci.org/limjoe/express-csv)
 
 ## Install
    $ npm install express-csv
