@@ -1,16 +1,16 @@
-# express-csv
+# express-json-2-csv
 An [express.js](http://expressjs.com) middleware for easy providing response CSV
 
 [![Build Status](https://travis-ci.org/limjoe/express-csv.svg?branch=master)](https://travis-ci.org/limjoe/express-csv)
 
 ## Install
-   $ npm install express-csv
+   $ npm install express-json-2-csv
 
 ## Usage
 
 Just `app.use` it!
 
-     app.use(require('express-csv')());
+     app.use(require('express-json-2-csv')());
 
 ## Example
 

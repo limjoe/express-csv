@@ -1,6 +1,6 @@
 {
-	"name": "express-csv",
-	"version": "1.0.0",
+	"name": "express-json-2-csv",
+	"version": "0.2.0",
 	"scripts": {
 		"test": "mocha -R spec"
 	},
