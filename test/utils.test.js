@@ -26,13 +26,20 @@ describe('utils', function() {
   });
 
   describe('.purifyCSV()', function() {
-    it('should purify CSV', function() {
+    it('should purify as CSV', function() {
       var line = 'Hello, This is my fisrt "public" repository!';
       var purified = '\"Hello, This is my fisrt \"\"public\"\" repository!\"';
       utils.purifyCSV(line)
         .should.eql(purified);
     });
-  });
 
+    it('should purify non String value', function() {
+      var line = 11;
+      var purified = '11';
+      utils.purifyCSV(line)
+        .should.eql(purified);
+    });
+
+  });
 
 });

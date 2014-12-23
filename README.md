@@ -56,6 +56,12 @@ Also, you can pass an array of objects to be serialized, in which case the objec
 
 ```
 
+## Changelog
+
+###0.2.2
+
+* Fix utils purify method if value is not a string 
+
 ## License
 
 The MIT License (MIT)

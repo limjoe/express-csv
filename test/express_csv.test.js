@@ -73,8 +73,6 @@ describe('express-csv', function() {
   it('should response csv includes ignored undefined', function(done) {
     request.get('/test/3')
     .expect(200, function(err, result) {
-      console.log(result.headers);
-      console.log(result.text);
       result.text.should.equal('a,b,,c\r\n');
       done();
     });
